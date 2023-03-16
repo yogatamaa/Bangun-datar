@@ -16,8 +16,8 @@ app.get('/', (req, res) => {
     res.send('Hello World!');
 });
 
-app.use('/api/quizzes', quizRoute)
-app.use('/api/jobsheet', jobsheetRoute)
+app.use('/api/quizaja', quizRoute)
+app.use('/api/jawabansoal', jobsheetRoute)
 
 app.listen(port,  () => console.log(`App Listening on port http://localhost:${port} !`));
 
